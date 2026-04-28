@@ -1,0 +1,36 @@
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\bin\Debug\Vehicle testing.deps.json
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\bin\Debug\Vehicle testing.runtimeconfig.json
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\bin\Debug\Vehicle testing.dll
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\bin\Debug\Vehicle testing.pdb
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.csproj.AssemblyReference.cache
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.AssemblyInfoInputs.cache
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.AssemblyInfo.cs
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle .F41A852F.Up2Date
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.dll
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\refint\Vehicle testing.dll
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.pdb
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.genruntimeconfig.cache
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\ref\Vehicle testing.dll
+C:\Users\User\Documents\vehicle-testing\.godot\mono\temp\obj\Debug\Vehicle testing.sourcelink.json
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\bin\Debug\Vehicle testing.deps.json
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\bin\Debug\Vehicle testing.runtimeconfig.json
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\bin\Debug\Vehicle testing.dll
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\bin\Debug\Vehicle testing.pdb
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\bin\Debug\GodotSharp.dll
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.csproj.AssemblyReference.cache
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.GeneratedMSBuildEditorConfig.editorconfig
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.AssemblyInfoInputs.cache
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.AssemblyInfo.cs
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.csproj.CoreCompileInputs.cache
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.sourcelink.json
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle .F41A852F.Up2Date
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.dll
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\refint\Vehicle testing.dll
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.pdb
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\Vehicle testing.genruntimeconfig.cache
+E:\GodotGameDev\Projects\CustomVehicleGD\.godot\mono\temp\obj\Debug\ref\Vehicle testing.dll

@@ -1,0 +1,17 @@
+res://addons/road-generator/custom_containers/3way_2x2.tscn::6af2aa9feba09f02d8e0c3cfc594c4bb::1770572975::res://.godot/exported/133200997/export-eb5f90f771e850d89663602378307b1a-3way_2x2.scn
+res://addons/road-generator/custom_containers/4way_1x1.tscn::82df5a91a0242e97e85e0e3dc7c67b60::1770572975::res://.godot/exported/133200997/export-c4e13461588d39ece032f0aa2992d70e-4way_1x1.scn
+res://addons/road-generator/custom_containers/4way_2x2.tscn::3593df8cc6210f47af3a51d501d43677::1770572975::res://.godot/exported/133200997/export-2fc8c3009639704a3d0611ad438fe489-4way_2x2.scn
+res://addons/road-generator/custom_containers/highway_offramp.tscn::6f49185fd7191884499633838442c924::1770572975::res://.godot/exported/133200997/export-5787028fd99de7cebdb3f1ab8732b37f-highway_offramp.scn
+res://addons/road-generator/custom_containers/highway_onramp.tscn::bfcb8708220d5d6f84108e505f7b3bd4::1770572975::res://.godot/exported/133200997/export-53b5f54be4d61fc641fcb0fca043f62e-highway_onramp.scn
+res://addons/road-generator/custom_containers/splitter_2x2.tscn::1217c038b9471346aa5e408bb2c82ffd::1770572975::res://.godot/exported/133200997/export-0014faa41fb9377659d41451418ce13d-splitter_2x2.scn
+res://addons/road-generator/scene/GizmoLaneIndicator.tscn::b091060dff7e0fecac7b792d401706fa::1770572976::res://.godot/exported/133200997/export-34455478cf47afc3b2df0f73dcd4c298-GizmoLaneIndicator.scn
+res://addons/road-generator/ui/road_container_panel.tscn::d8e1df9ce8493e0889ab4fb657358860::1770572976::res://.godot/exported/133200997/export-2b9f94162bfb9f52c0bfb2a0c1573cab-road_container_panel.scn
+res://addons/road-generator/ui/road_point_panel.tscn::0f840175b890236c132aa47121fbb439::1770572976::res://.godot/exported/133200997/export-a5d6f238475655a3aafddb549ec3a80c-road_point_panel.scn
+res://addons/road-generator/ui/road_toolbar.tscn::3c29c6d551156413aa0b415001a1f879::1770572976::res://.godot/exported/133200997/export-e0e863d4aea36c2fc7be012b19640278-road_toolbar.scn
+res://main.tscn::e193bd768f760c20e4e3f543bc162b19::1771763605::res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn
+res://assets/materials/Ground.tres::33ab2f9da17555bf47e2cb1d33154fa1::1771751359::res://.godot/exported/133200997/export-fe5d310558cf4fa367387990f493fd22-Ground.res
+res://assets/materials/groundShader.tres::4d78d5f3dc275a3d534e325c76b1ef88::1771094926::res://.godot/exported/133200997/export-bea685f461026fff039475697b63a01c-groundShader.res
+res://gimble/gimble.tscn::c12b97714167e86243dd6fa02d44a285::1771756174::res://.godot/exported/133200997/export-549477f0d0930ad62b3d818235f75d63-gimble.scn
+res://vehicle/Vehicle.tscn::e75b6ae97abe0180ac1d952890f590c4::1771763194::res://.godot/exported/133200997/export-437f009fba6ec47a58e52f77b68b66c8-Vehicle.scn
+res://vehicle/Wheel.tscn::749a2cc0d9e920ea4ed9acd1c4846334::1771098910::res://.godot/exported/133200997/export-1cd1ff2a75cfbd19f7cda8c8348354f3-Wheel.scn
+res://assets/arrowSign.tscn::30451d30a0805ee8423fec7e6784038b::1771755044::res://.godot/exported/133200997/export-b16478ded870510518de4fee3295b26e-arrowSign.scn

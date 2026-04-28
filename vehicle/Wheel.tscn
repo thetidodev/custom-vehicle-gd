@@ -1,0 +1,98 @@
+[gd_scene format=3 uid="uid://sxkhcosddyo"]
+
+[ext_resource type="Script" uid="uid://srgvr7ug6pfn" path="res://vehicle/wheel.gd" id="1_42322"]
+[ext_resource type="Script" uid="uid://imxcjwp02m0c" path="res://vehicle/Resources/tire_model.gd" id="2_p1hv3"]
+[ext_resource type="Texture2D" uid="uid://bh8f4di8c8t2p" path="res://assets/force.png" id="3_3gy4u"]
+
+[sub_resource type="Resource" id="Resource_4848y"]
+script = ExtResource("2_p1hv3")
+metadata/_custom_type_script = "uid://imxcjwp02m0c"
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p561g"]
+no_depth_test = true
+shading_mode = 0
+albedo_color = Color(0.56078434, 0.8666667, 0.40784314, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_f58na"]
+material = SubResource("StandardMaterial3D_p561g")
+size = Vector3(0.1, 0.1, 0.1)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_f58na"]
+gravity = Vector3(0, 0, 0)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_72imr"]
+transparency = 1
+vertex_color_use_as_albedo = true
+
+[sub_resource type="QuadMesh" id="QuadMesh_o4k5p"]
+material = SubResource("StandardMaterial3D_72imr")
+size = Vector2(0.2, 0.4)
+orientation = 1
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_f58na"]
+height = 0.2
+radius = 0.29
+
+[node name="Wheel" type="Node3D" unique_id=267392005 node_paths=PackedStringArray("skid_mark_emitter", "shape_cast", "spin_marker", "fixed_marker", "contact_point_marker", "lateral_force_arrow", "longitudinal_force_arrow", "suspension_force_arrow", "patch_position_mesh", "hub_marker")]
+script = ExtResource("1_42322")
+skid_mark_emitter = NodePath("SkidMarkEmittr")
+shape_cast = NodePath("ShapeCast3D")
+spin_marker = NodePath("hub/spin")
+fixed_marker = NodePath("hub/fixed")
+contact_point_marker = NodePath("ContactVisual")
+lateral_force_arrow = NodePath("ContactVisual/lateral")
+longitudinal_force_arrow = NodePath("ContactVisual/longitudal")
+suspension_force_arrow = NodePath("ContactVisual/suspforce")
+patch_position_mesh = NodePath("ContactVisual/patch_pos")
+hub_marker = NodePath("hub")
+tire_model = SubResource("Resource_4848y")
+
+[node name="ContactVisual" type="Marker3D" parent="." unique_id=22975496]
+
+[node name="patch_pos" type="MeshInstance3D" parent="ContactVisual" unique_id=1307964884]
+mesh = SubResource("BoxMesh_f58na")
+
+[node name="lateral" type="Sprite3D" parent="ContactVisual" unique_id=1414202725]
+transform = Transform3D(-4.371139e-09, 1, -4.371139e-08, 0, -4.371139e-08, -1, -0.1, -4.371139e-08, 1.9106855e-15, 0, 0, 0)
+cast_shadow = 0
+offset = Vector2(0, -64)
+no_depth_test = true
+alpha_cut = 1
+texture = ExtResource("3_3gy4u")
+
+[node name="longitudal" type="Sprite3D" parent="ContactVisual" unique_id=1289651711]
+transform = Transform3D(0.1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0)
+cast_shadow = 0
+offset = Vector2(0, -64)
+no_depth_test = true
+alpha_cut = 1
+texture = ExtResource("3_3gy4u")
+
+[node name="suspforce" type="Sprite3D" parent="ContactVisual" unique_id=458826074]
+transform = Transform3D(0.1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 0, 0, 0)
+cast_shadow = 0
+offset = Vector2(0, -64)
+modulate = Color(1, 0.5529412, 0.1882353, 1)
+no_depth_test = true
+alpha_cut = 1
+texture = ExtResource("3_3gy4u")
+
+[node name="hub" type="Marker3D" parent="." unique_id=538241252]
+
+[node name="spin" type="Marker3D" parent="hub" unique_id=1284684977]
+
+[node name="fixed" type="Marker3D" parent="hub" unique_id=327372590]
+
+[node name="SkidMarkEmittr" type="GPUParticles3D" parent="." unique_id=1536170643]
+emitting = false
+amount = 150
+lifetime = 2.0
+fixed_fps = 60
+process_material = SubResource("ParticleProcessMaterial_f58na")
+draw_pass_1 = SubResource("QuadMesh_o4k5p")
+
+[node name="ShapeCast3D" type="ShapeCast3D" parent="." unique_id=2095252426]
+process_physics_priority = -1
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("CylinderShape3D_f58na")
+target_position = Vector3(-1, 0, 0)

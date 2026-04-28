@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ews68wro2avg"]
+
+[ext_resource type="Shader" uid="uid://b38bb6oo4aodn" path="res://assets/materials/Ground.tres" id="1_rfq7y"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_rfq7y")
+shader_parameter/FloatParameter = 0.8

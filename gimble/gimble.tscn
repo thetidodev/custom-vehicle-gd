@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dbwwieiksxbvm"]
+
+[ext_resource type="Script" uid="uid://jf7cc2c4aheq" path="res://gimble/gimble.gd" id="1_0oy3d"]
+
+[node name="Gimble" type="Node3D" unique_id=702368256 node_paths=PackedStringArray("rotation_point", "spring_arm", "camera")]
+script = ExtResource("1_0oy3d")
+rotation_point = NodePath("RotationPoint")
+spring_arm = NodePath("RotationPoint/SpringArm3D")
+camera = NodePath("RotationPoint/SpringArm3D/Node3D/Camera3D")
+
+[node name="RotationPoint" type="Node3D" parent="." unique_id=1464383815]
+
+[node name="SpringArm3D" type="SpringArm3D" parent="RotationPoint" unique_id=1871840448]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 0)
+spring_length = 5.0
+
+[node name="Node3D" type="Node3D" parent="RotationPoint/SpringArm3D" unique_id=442234914]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.7683716e-07, 0)
+
+[node name="Camera3D" type="Camera3D" parent="RotationPoint/SpringArm3D/Node3D" unique_id=960466808 groups=["Camera"]]
+near = 0.001
